@@ -34,3 +34,7 @@
 sudo apt-get install python-opencv
 ```
 More info to install Tensorflow: https://cran2367.medium.com/install-and-setup-tensorflow-2-0-2c4914b9a265
+
+## NOTE
+Actually to load or to run the model you need a file called #openface_nn4.small2.v1.t7 
+
