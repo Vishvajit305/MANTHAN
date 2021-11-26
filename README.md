@@ -25,7 +25,10 @@
  - Train the SVM model - python train_model.py
  - Before jumping to test the model, if you want to insert any audio file to alert us for the stranger, you have to enter filename to run that audio. More info: https://pythonbasics.org/python-play-sound/ 
  - Test the model - python recognize_video.py
- 
+# NOTE
+Actually to load or to run the model you need a file called *openface_nn4.small2.v1.t7*
+You can download by using this link: https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.small2.v1.t7
+
 ## Prerequisites
 - Python 3.8.1
 - OpenCV
@@ -35,6 +38,4 @@ sudo apt-get install python-opencv
 ```
 More info to install Tensorflow: https://cran2367.medium.com/install-and-setup-tensorflow-2-0-2c4914b9a265
 
-## NOTE
-Actually to load or to run the model you need a file called #openface_nn4.small2.v1.t7 
 
