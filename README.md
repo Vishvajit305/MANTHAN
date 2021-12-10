@@ -1,6 +1,6 @@
 # MANTHAN
 # Here we are using this recognition to identify and differentiate stranger and familiar people and Tkinter for GUI.
-# And also provided movement, age and gender detection
+## And also provided movement, age and gender detection
 
 - Create dataset of face images
 - Detect faces using deploy.prototxt and res10_300x300_ssd_iter_140000.caffemodel.
@@ -21,19 +21,20 @@
 
 # How to run the program
  - Create dataset of face images.
- - It will ask whether to read in the file or record live for images
+ - It will ask whether to read in the file available in video or to record images
  - Place those face images in dataset folder.
  - Train the SVM model - python train_model.py
- - Before jumping to test the model, if you want to insert any audio file to alert us for the stranger, you have to enter filename to run that audio. More info: https://pythonbasics.org/python-play-sound/ 
+ - Before jumping to test the model, if you want to insert any audio file to alert us for the stranger, you have to enter filename to run that audio. 
+ - More info: https://pythonbasics.org/python-play-sound/ 
  - Test the model - python recognize_video.py
 # NOTE
 Actually to load or to run the model you need a file called *openface_nn4.small2.v1.t7*
 You can download by using this link: https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.small2.v1.t7
 
-For age and gender detection you need .prototxt and .caffemodel file respectively. *Create those files or search them*
+##For age and gender detection you need *.prototxt and .caffemodel* file respectively. Create those files or search them
 
 ## Prerequisites
-- Python 3.8.1
+- Python 3x
 - OpenCV
 - Tensorflow
 ```
