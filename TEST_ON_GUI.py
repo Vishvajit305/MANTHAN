@@ -181,9 +181,9 @@ def recognize_video():
         import detect
         reload(detect)
     thread1 = camThread("Camera 1", 0)
-    #thread2 = camThreading("Camera 0", 0)
+    thread2 = camThreading("Camera 0", 0)
     thread1.start()
-    #thread2.start()
+    thread2.start()
 def train_model():
     x=messagebox.askyesno(title="Confirmation",message='Are you sure that you want to train?\nOnce started you have to wait for a while!')
     if(x):
