@@ -1,5 +1,6 @@
 # MANTHAN
 # Here we are using this recognition to identify and differentiate stranger and familiar people and Tkinter for GUI.
+# And also provided movement, age and gender detection
 
 - Create dataset of face images
 - Detect faces using deploy.prototxt and res10_300x300_ssd_iter_140000.caffemodel.
@@ -28,6 +29,8 @@
 # NOTE
 Actually to load or to run the model you need a file called *openface_nn4.small2.v1.t7*
 You can download by using this link: https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.small2.v1.t7
+
+For age and gender detection you need .prototxt and .caffemodel file respectively. *Create those files or search them*
 
 ## Prerequisites
 - Python 3.8.1
