@@ -31,7 +31,7 @@
 Actually to load or to run the model you need a file called *openface_nn4.small2.v1.t7*
 You can download by using this link: https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.small2.v1.t7
 
-##For age and gender detection you need *.prototxt and .caffemodel* file respectively. Create those files or search them
+For age and gender detection you need **.prototxt and .caffemodel** file respectively.
 
 ## Prerequisites
 - Python 3x
